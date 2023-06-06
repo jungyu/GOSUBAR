@@ -19,3 +19,6 @@ AT,CI,PoP6h,MinCI,MaxAT,MaxCI,MinT,UVI,MinAT,MaxT,WS,WD,Td,PoP12h,T,RH,Wx,Weathe
 tmp.weatherInfo = JSON.stringify(tmp.data)
 tmp.rainRate = tmp.data.records.locations[0].location[0].weatherElement[0].time[0].elementValue[0].value
 
+## 簡報
+https://drive.google.com/file/d/1URwyYxjLwiw9hHbCQgwV8hyfGIV-MyqR/view?usp=sharing
+
