@@ -14,3 +14,8 @@ F-D0047-033
 內埔鄉
 #### elementName
 AT,CI,PoP6h,MinCI,MaxAT,MaxCI,MinT,UVI,MinAT,MaxT,WS,WD,Td,PoP12h,T,RH,Wx,WeatherDescription
+
+## 整理氣象資料程式碼
+tmp.weatherInfo = JSON.stringify(tmp.data)
+tmp.rainRate = tmp.data.records.locations[0].location[0].weatherElement[0].time[0].elementValue[0].value
+
